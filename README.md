@@ -8,3 +8,5 @@ To put it in a nutshell, my solution was:
 * Cross-platform (Linux/Windows/BSD)
 * Hardware-independent (32/64-bit/ARM)
 * Software-independent (no dependencies whatsoever, except Python for the PoC)
+
+https://www.youtube.com/watch?v=qNV-KRlZU6U
