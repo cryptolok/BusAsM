@@ -1,6 +1,6 @@
 # BusAsM
 
-AM radio data exfiltration with a system bus in assembly.
+AM radio data exfiltration with a system bus and cache in assembly.
 
 To put it in a nutshell, my solution :
 * More simple (few lines in assembly and some Python scripts)
@@ -31,7 +31,7 @@ Nothing, I just wanted everybody to know, that it could be done otherwise and mo
 
 See my [video](https://youtu.be/qNV-KRlZU6U) in comparison.
 
-In fact, I'm doing almost the same thing, except sending 0es and 1s with direct instructions to the processor and memory (using system bus and registers) in assembly, which boost the signal significantly.
+In fact, I'm doing almost the same thing, except sending 0es and 1s with direct instructions to the processor and memory (using system bus and cache) in assembly, which boost the signal significantly.
 
 Besides, I made a Windows 32/64-bits implementation as well.
 
