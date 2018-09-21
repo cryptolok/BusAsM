@@ -33,7 +33,7 @@ See my [video](https://youtu.be/qNV-KRlZU6U) in comparison.
 
 In fact, I'm doing almost the same thing, except sending 0es and 1s with direct instructions to the processor and memory (using system bus and cache) in assembly, which boost the signal significantly.
 
-Besides, I made a Windows 32/64-bits implementation as well.
+Besides, I made a Windows 32/64-bits and Android implementations as well.
 
 So, I will provide a SOS signal PoC and a complete transmission solution.
 
