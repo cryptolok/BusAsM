@@ -47,7 +47,7 @@ I used a pretty old [radio](http://www.radiomuseum.org/r/panasonic_stereo_radio_
 
 To amplify the signal, you can use an [antenna](https://www.amazon.com/SaferCCTV-Replacement-Tunable-Passive-Panasonic/dp/B01MT10PME/).
 
-The encoding/modulation is pretty simple, 1 to begin and send next 8 bits.
+The encoding/modulation is pretty simple, 1 to begin and send next 8 bits (aka RS-232 8N0 MSB).
 
 On the victims PC, you will need the signal's executable and the Python's script send.py, you can use [Portable Python](http://portablepython.com/) 2 or 3.
 On your machine, you should have a Linux with [soundmeter](https://pypi.python.org/pypi/soundmeter) builded from sources. Then you just copy custom.py and geter.py to the build/lib.linux/soundmeter directory and it's ready. However, you will need to calibrate the LIMIT variable in geter.py
