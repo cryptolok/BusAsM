@@ -1,0 +1,35 @@
+<script>
+function sleep (time) {
+	return new Promise((resolve) => setTimeout(resolve, time));
+}
+
+function signal(){
+	while(true){};
+}
+
+function dot(){
+	setTimeout(signal(),1*1000);
+	sleep(0.1*1000);
+}
+
+function line(){
+	setTimeout(signal(),3*1000);
+	sleep(0.1*1000);
+}
+
+function SOS(){
+	dot();
+	dot();
+	line();
+	line();
+	line();
+	dot();
+	dot();
+	dot();
+}
+
+while(true){
+	sleep(1*1000);
+	SOS();
+}
+</script>
