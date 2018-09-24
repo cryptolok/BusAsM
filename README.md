@@ -1,6 +1,6 @@
 # BusAsM
 
-AM radio data exfiltration without a system bus, but with a CPU cache in assembly.
+AM radio data exfiltration with CPU bus and cache in assembly.
 
 To put it in a nutshell, my solution :
 * More simple (few lines in assembly and some Python/JS scripts)
@@ -33,7 +33,7 @@ Nothing, I just wanted everybody to know, that it could be done otherwise and mo
 
 See my [video](https://youtu.be/qNV-KRlZU6U) in comparison.
 
-In fact, I'm doing almost the same thing in the opposite way, by sending 0es and 1s with direct instructions to the processor (using L1 cache) in assembly, which boost the signal significantly.
+In fact, I'm doing almost the same thing in the opposite way, by sending 0es and 1s with direct instructions to the processor (using L1 cache) in assembly through it's own bus, which boost the signal significantly.
 
 Besides, I made a Windows 32/64-bits and Android implementations as well, including JavaScript code.
 
