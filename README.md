@@ -54,3 +54,28 @@ The encoding/modulation is pretty simple, 1 to begin and send next 8 bits (aka R
 On the victims PC, you will need the signal's executable and the Python's script send.py, you can use [Portable Python](http://portablepython.com/) 2 or 3.
 On your machine, you should have a Linux with [soundmeter](https://pypi.python.org/pypi/soundmeter) builded from sources. Then you just copy custom.py and geter.py to the build/lib.linux/soundmeter directory and it's ready. However, you will need to calibrate the LIMIT variable in geter.py
 
+### Analysis
+
+Memory architecture:
+![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/memory.png)
+
+Cache architecture:
+![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/cache.png)
+
+By a normal usage of those, we can see the following signal:
+![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/radioNorm.jpg)
+
+Using my solution, the signal has a spike at a precise frequency:
+![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/radioSignal.jpg)
+
+Same is valid on the thermal point of view for the CPU:
+![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/thermalNorm.jpg)
+
+Using the code:
+![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/thermalSignal.jpg)
+
+While the signal is traveling all the way from registers to the L1 cache, it is decoded and forms a specific radio wave.
+
+Thus, electromagnetic exfiltration isn't just a theoretical PoC but a reality, which is quite easy to exploit on almost any hardware, whereas mitigation is a challenge.
+
+I conclude that we need a new hardware architecture and not just anti-viruses and WAFs.
