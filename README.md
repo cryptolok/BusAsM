@@ -57,21 +57,27 @@ On your machine, you should have a Linux with [soundmeter](https://pypi.python.o
 ### Analysis
 
 Memory architecture:
+
 ![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/memory.png)
 
 Cache architecture:
+
 ![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/cache.png)
 
 By a normal usage of those, we can see the following signal:
+
 ![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/radioNorm.jpg)
 
 Using my solution, the signal has a spike at a precise frequency:
+
 ![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/radioSignal.jpg)
 
 Same is valid on the thermal point of view for the CPU:
+
 ![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/thermalNorm.jpg)
 
 Using the code:
+
 ![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/thermalSignal.jpg)
 
 While the signal is traveling all the way from registers to the L1 cache, it is decoded and forms a specific radio wave.
