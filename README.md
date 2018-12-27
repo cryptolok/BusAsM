@@ -2,6 +2,8 @@
 
 AM radio data exfiltration with CPU bus and cache in assembly.
 
+![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/logo.jpg)
+
 To put it in a nutshell, my solution :
 * More simple (few lines in assembly and some Python/JS scripts)
 * More robust (written in assembly and JS)
