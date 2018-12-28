@@ -12,7 +12,7 @@ To put it in a nutshell, my solution :
 * Hardware-independent (32/64-bit/ARM)
 * Software-independent (no dependencies whatsoever, except Python/JS for the PoC)
 
-## Fork ?
+## Déjàvu ?
 
 You might already know about [System Bus Radio](https://github.com/fulldecent/system-bus-radio), which is a similar project, but what you might not know, is that I was working on the same research independently.
 
