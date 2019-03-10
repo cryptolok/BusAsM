@@ -37,7 +37,9 @@ See my [video](https://youtu.be/qNV-KRlZU6U) in comparison.
 
 In fact, I'm doing almost the same thing in the opposite way, by sending 0es and 1s with direct instructions to the processor (using L1 cache) in assembly through it's own bus, which boost the signal significantly.
 
-Besides, I made a Windows 32/64-bits, MacOS and Android implementations as well, including JavaScript code.
+Besides, I made a Windows 32/64-bits and Android implementations as well, including JavaScript code.
+
+[Someone](https://github.com/joscandreu) even port it to MacOS.
 
 So, I will provide a SOS signal PoC and a complete transmission solution.
 
