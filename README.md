@@ -45,6 +45,8 @@ So, I will provide a SOS signal PoC and a complete transmission solution.
 
 A similar independent theoretical work [exists](https://dl.acm.org/citation.cfm?id=2742179) as well.
 
+Plus, I also discovered [another way](https://youtu.be/xpEylYuTMBo) to do the same thing with a backdoored keyboard.
+
 #### File transfer
 
 I used a pretty old [radio](http://www.radiomuseum.org/r/panasonic_stereo_radio_cassette_player_rq_v60.html) and it's working great. Of course, you can use some SDR, but good luck for founding one that supports 1100kHz AM, in fact I'm using the radio as a microphone with Jack/Jack cable.
