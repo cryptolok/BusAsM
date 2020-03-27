@@ -1,6 +1,6 @@
 # BusAsM
 
-AM radio data exfiltration with CPU bus and cache in assembly.
+AM radio data exfiltration with CPU cache in assembly.
 
 ![](https://raw.githubusercontent.com/cryptolok/BusAsM/master/logo.jpg)
 
@@ -29,13 +29,15 @@ And yes, it's a second publication of my code (dates from mid-2016) since I remo
 
 Recently I discovered another similar research for [ARM](http://thesai.org/Downloads/Volume9No1/Paper_25-Data_Exfiltration_from_Air_Gapped_Computers.pdf), but it's totally different from mine, which is 2 years older anyway.
 
+So basically, you can transform any electronic device in a radio.
+
 ### So, what now ?
 
 Nothing, I just wanted everybody to know, that it could be done otherwise and more efficiently.
 
 See my [video](https://youtu.be/qNV-KRlZU6U) in comparison.
 
-In fact, I'm doing almost the same thing in the opposite way, by sending 0es and 1s with direct instructions to the processor (using L1 cache) in assembly through it's own bus, which boost the signal significantly.
+In fact, I'm doing almost the same thing in the opposite way, by sending 0es and 1s with direct instructions to the processor (using L1 cache) in assembly through it's own cache, which boost the signal significantly.
 
 Besides, I made a Windows 32/64-bits and Android implementations as well, including JavaScript code.
 
