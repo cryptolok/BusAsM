@@ -7,17 +7,17 @@ call:start
 	exit /b
 
 :sleep100
-	ping 1.1.1.1 -n 1 -w 100 > nul
+	ping 2.2.2.2 -n 1 -w 100 > nul
 	exit /b
 
 
 :sleep300
-	ping 1.1.1.1 -n 1 -w 300 > nul
+	ping 2.2.2.2 -n 1 -w 300 > nul
 	exit /b
 
 
 :sleep1000
-	ping 1.1.1.1 -n 1 -w 1000 > nul
+	ping 2.2.2.2 -n 1 -w 1000 > nul
 	exit /b
 
 :dot
